@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;   
+    gap: 50px;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+div.logo{
+
+margin-bottom: none;
+padding: 5px;
+display: flex;
+align-items: center;
+}
+
+header{
+    background-color: blueviolet;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+nav ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+}
+
+.hero-section{
+    background-image: url(hero.png);
+    height: 100vh;
+    display: grid;
+    color: white;
+    place-items: center;
+    text-align: center;
+    
+}
+
+.music-section h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.music-section{
+    padding-top: 50px;
+    background-color: purple;
+    
+}
+
+
+.music-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 60px;
+}
+
+.ipad-iphone-img{
+    position: relative;
+    top: 400px;
+    margin-top: -400px;
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    transform: 0.2s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.8;
+    transform: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.primary-btn{
+    background-color: red;
+    color: white;
+}
+
+.secondary-btn{
+    background-color: purple;
+    color: white;
+}
+
+.about-music-container{
+    padding-top: 800px;
+    display: grid;
+    place-items: center;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.video-section{
+    background-image: url(concert-performing.gif);
+    min-height: 900px;
+    display: grid;
+    place-items: center;
+    color: white;
+    text-align: center;
+    /* background-repeat: no-repeat; */
+    
+
+}
+
+.video-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.hero-section, .video-section{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gift-section{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    gap: 50px;
+}
+.gift-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-upper{
+    background-color: purple;
+    padding: 20px;
+}
+
+.footer-upper .container{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    
+}
+
+.footer-upper ul{
+    list-style: none;
+}
+
+.footer-upper{
+    padding-bottom:10px ;
+    border-bottom: 2px solid white;
+    
+    /* margin-bottom: 10px; */
+}
+
+.footer-lower{
+    background-color: blueviolet;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
